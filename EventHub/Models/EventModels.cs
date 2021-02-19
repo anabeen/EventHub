@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EventHub.Models
 {
-    public class Event
+    public class EventModels
     {
         public int Id { get; set; }
 
