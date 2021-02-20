@@ -20,7 +20,7 @@ namespace EventHub.Models
 
     public class ApplicationDbContext : IdentityDbContext<ApplicationUser>
     {
-        public DbSet<EventModels> Events { get; set; }
+        public DbSet<Event> Events { get; set; }
         public DbSet<Theme> Themes { get; set; }
 
         public ApplicationDbContext()
