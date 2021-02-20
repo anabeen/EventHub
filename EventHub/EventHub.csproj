@@ -184,6 +184,7 @@
     <Compile Include="Controllers\EventController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="EventViewModel\EventViewModelDateValidation.cs" />
     <Compile Include="EventViewModel\EventFormViewModel.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -211,6 +212,14 @@
     <Compile Include="Migrations\202102190118176_remainingMigration.cs" />
     <Compile Include="Migrations\202102190118176_remainingMigration.Designer.cs">
       <DependentUpon>202102190118176_remainingMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102190414019_EventMigration.cs" />
+    <Compile Include="Migrations\202102190414019_EventMigration.Designer.cs">
+      <DependentUpon>202102190414019_EventMigration.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202102190438210_AddedPlannerNThemeId.cs" />
+    <Compile Include="Migrations\202102190438210_AddedPlannerNThemeId.Designer.cs">
+      <DependentUpon>202102190438210_AddedPlannerNThemeId.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
@@ -312,6 +321,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102190118176_remainingMigration.resx">
       <DependentUpon>202102190118176_remainingMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102190414019_EventMigration.resx">
+      <DependentUpon>202102190414019_EventMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202102190438210_AddedPlannerNThemeId.resx">
+      <DependentUpon>202102190438210_AddedPlannerNThemeId.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

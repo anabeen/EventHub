@@ -3,12 +3,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace EventHub.Models
 {
-    public class EventModels
+    public class Event
     {
         public int Id { get; set; }
 
-        [Required]
         public ApplicationUser Planner { get; set; }
+
+        [Required]
+        public string PlannerId { get; set; }
 
         [Required]
         public DateTime DateTime { get; set; }
@@ -17,8 +19,10 @@ namespace EventHub.Models
         [StringLength(255)]
         public string Place { get; set; }
 
-        [Required]
         public Theme EventTheme { get; set; }
+        
+        [Required]
+        public int ThemeId { get; set; }
     }
 
     public class Theme
