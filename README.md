@@ -9,14 +9,16 @@ Features that are in EventHub:
   - Seeing upcoming events
   - Following events *
   - Calender with events Going *
+  - Notifications on event following *
 
 
 Features that are coming to EventHub:
-  - Validating area and zipcode
+  - Validating area and zipcode *
   - Filter events based on area, theme, date, event planner, and event name
   - Following event tags * 
   - comment and replies on event post *
-  - Synch up calender with gmail calender
+  - Notifications on comment replies *
+  - Synch up calender with gmail calender *
 
 
 
