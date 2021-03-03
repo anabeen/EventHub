@@ -3,7 +3,7 @@ EventHub is where people can see events, create events and join them.
 
     * means restricted to account holder
 
-Features that are in EventHub:
+Features that I am working in EventHub:
   - Sing Up, Sign In, Password changer
   - Adding event *
   - Seeing upcoming events
