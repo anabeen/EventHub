@@ -24,12 +24,23 @@ textarea {
 }
 
 
+span.field-validation-error {
+    color: red;
+    font-weight: bold;
+}
+
+
 /* Bootstrap Override */
 
+    /* Changing nav bar */
 .navbar-inverse {
     background-color: #3DD8F4;
     border-color: #3DD8F4;
     background-image: linear-gradient(to left, #1a1bc5d4, #14dc3794);
+}
+
+.navbar-brand {
+    font-weight: 700;
 }
 
 .navbar-inverse .navbar-nav > li > a {
@@ -46,11 +57,27 @@ textarea {
     background-color: #1c51ab;
 }
 
+    /* Changing style of dropdown menu */
+.dropdown-menu > li > a {
+    padding: 8px 12px;
+    font-weight: 500;
+}
+
+.dropdown-menu {
+    font-size: 17px;
+}
+
+@@media (max-width: 767px) .navbar-nav .open .dropdown-menu {
+    background-color: white;
+}
+
+
 body {
     font-size: 18px;
 }
 
 
+    /* Changing color of nav bar */
 .tooltip,
 .popover,
 body {
