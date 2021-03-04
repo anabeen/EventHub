@@ -98,3 +98,20 @@ body {
     font-size: 18px;
     border-radius: 17px;
 }
+
+/* Generic Page-level style */
+
+.upcomingEvents {
+    list-style: none;
+}
+
+.upcomingEvents > li {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.upcomingEvents > li .details {
+    position: absolute;
+    top: 0px;
+    left: 70px;
+}
