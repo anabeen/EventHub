@@ -28,6 +28,7 @@ namespace EventHub.Controllers
 
         [Authorize]
         [HttpPost]
+        [ValidateAntiForgeryToken]
         public ActionResult Create(EventViewModel viewModel)
         {
 

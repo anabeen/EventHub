@@ -221,6 +221,10 @@
     <Compile Include="Migrations\202102190438210_AddedPlannerNThemeId.Designer.cs">
       <DependentUpon>202102190438210_AddedPlannerNThemeId.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202103030126559_AddNameToApplicationUser.cs" />
+    <Compile Include="Migrations\202103030126559_AddNameToApplicationUser.Designer.cs">
+      <DependentUpon>202103030126559_AddNameToApplicationUser.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\EventModels.cs" />
@@ -327,6 +331,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202102190438210_AddedPlannerNThemeId.resx">
       <DependentUpon>202102190438210_AddedPlannerNThemeId.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202103030126559_AddNameToApplicationUser.resx">
+      <DependentUpon>202103030126559_AddNameToApplicationUser.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
